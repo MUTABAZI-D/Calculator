@@ -117,6 +117,7 @@ export const KeysLayout = () => {
           /
         </button>
       </div>
+
       <div className="flex">
         <button className="btn-clear" onClick={handleClear}>
           Clear
