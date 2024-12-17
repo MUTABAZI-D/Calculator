@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.btn {
+  @apply w-14 h-14 rounded-full bg-slate-700 mr-3 text-2xl;
+}
+
+.btn-operation {
+  @apply w-14 h-14 rounded-full bg-green-600 text-2xl;
+}
+
+.btn-clear {
+  @apply w-14 h-14 rounded-full bg-slate-700 mr-4 text-sm;
+}
